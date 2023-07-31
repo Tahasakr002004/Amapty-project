@@ -62,7 +62,7 @@ a:visited {
 .workouts {
   list-style: none;
   height: 30vh;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   overflow-x: hidden;
 }
 
@@ -195,8 +195,8 @@ a:visited {
 /**********************************************************/
 
 /* MAP */
-/* #map {
-  flex: 1;
+ #map {
+  flex-grow:3;
   height: 100vh;
   background-color: var(--color-light--1);
 }
@@ -264,8 +264,10 @@ a:visited {
     }
 
     .flex-item {
-      flex: 1;
       display: flex;
       height: 100vh;
+    }
+    .div2 {
+      flex-grow: 3;
     }
     }
